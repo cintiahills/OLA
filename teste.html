@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Gente Bonita</title>
+    <meta name="description" content="Agora, um pouco de gente bonita pra melhorar o seu dia"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
+            flex-direction: column;
+            text-align: center;
+        }
+        .images, .audio, .video {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px; 
+            margin-top: 20px;
+        }
+        .images img {
+            max-width: 150px; 
+            height: 100px;
+            border-radius: 10px; 
+        }
+        .video video {
+            width: 80%; /* Ajuste conforme necessário */
+            max-width: 560px; /* Ajuste para limitar a largura máxima */
+        }
+    </style>
+</head>
+<body>
+    <h1>SEU DIA ESTÁ RUIM?</h1>
+    <p>Então, nada melhor do que ver algo bonito para melhorá-lo!</p>
+    <div class="images">
+        <img src="ney.jpeg" alt="Descrição da Imagem 1">
+        <img src="cintia.jpeg" alt="Descrição da Imagem 2">
+        <img src="cris.jpeg" alt="Descrição da Imagem 3">
+        <img src="carro.jpeg" alt="Descrição da Imagem 4">
+    </div>
+    
+    <!-- Adicionando vídeo -->
+    <div class="video">
+        <video autoplay loop controls>
+            <source src="Musica portuguesa estilo com comedia.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </div>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-C6TVJFK786');
+    </script>
+</body>
+</html>
